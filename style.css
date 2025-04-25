@@ -1,0 +1,88 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  /* Headings */
+  h1, h2, h3, h4, h5 {
+    font-weight: 600;
+    color: #222;
+  }
+  
+  /* Navbar */
+  .navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Buttons */
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004a9f;
+  }
+  
+  .btn-success {
+    background-color: #25d366;
+    border-color: #25d366;
+  }
+  .btn-success:hover {
+    background-color: #1da955;
+    border-color: #1da955;
+  }
+  
+  /* Section Titles */
+  section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0d6efd;
+  }
+  
+  /* Cards (for projects) */
+  .card {
+    transition: transform 0.3s ease;
+    border: none;
+    border-radius: 15px;
+  }
+  .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #212529;
+    color: #fff;
+  }
+  
+  /* Responsive spacing */
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  /* Form spacing */
+  form .form-control {
+    border-radius: 8px;
+  }
+  form button {
+    border-radius: 8px;
+  }
+  
+  /* WhatsApp icon size */
+  .bi-whatsapp {
+    font-size: 1.2rem;
+    margin-right: 6px;
+  }
