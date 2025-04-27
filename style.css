@@ -121,3 +121,8 @@
   50% { opacity: 0; }
 
 }
+.education-section {
+  background-color: #f8f9fa; /* Light background */
+  border: 1px solid #ddd;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
