@@ -86,3 +86,38 @@
     font-size: 1.2rem;
     margin-right: 6px;
   }
+  #typed-text {
+
+    color: #333; /* Darker text */
+
+    font-weight: bold;
+
+    font-size: 22px;
+
+}
+
+
+
+/* Cursor blinking style */
+
+.typed-cursor {
+
+    font-size: 22px;
+
+    opacity: 1;
+
+    animation: blink 0.7s infinite;
+
+    color: #333;
+
+}
+
+
+
+@keyframes blink {
+
+  0%, 100% { opacity: 1; }
+
+  50% { opacity: 0; }
+
+}
